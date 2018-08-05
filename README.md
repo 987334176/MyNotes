@@ -65,7 +65,7 @@ python manage.py runserver
 ## 效果
 我的笔记页面：
 
-![Image text](https://github.com/py3study/cnblog/blob/master/%E5%89%8D%E7%AB%AF.png)
+![Image text](https://github.com/987334176/MyNotes/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
 
 
 Copyright (c) 2018-present, xiao You
