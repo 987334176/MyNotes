@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+  <h2>{{ msg }}</h2>
+  <span v-bind:title="titleMsg">哈哈</span>
+</div>
+<script type="text/javascript" src="vue.js"></script>
+<script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      msg: "哈哈",
+      titleMsg: "我是一个span标签，加载于" + new Date().toLocaleString()
+    }
+  });
+  console.log(app);
+  console.log(app.$data.msg);
+  console.log(app.msg);
+  console.log(app.$el);
+</script>
+</body>
+</html>
